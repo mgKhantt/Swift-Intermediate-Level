@@ -10,14 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            CollapsibleStoryHeader(stories: [
+                Story(imageName: "profile1"),
+                Story(imageName: "profile2"),
+                Story(imageName: "profile3"),
+                Story(imageName: "profile4")
+            ])
+            Spacer()
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
