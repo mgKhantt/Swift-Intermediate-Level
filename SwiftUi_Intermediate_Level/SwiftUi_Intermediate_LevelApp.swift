@@ -17,7 +17,7 @@ struct SwiftUi_Intermediate_LevelApp: App {
     
     var body: some Scene {
         WindowGroup {
-            CoreDataBootCamp()
+            CoreDataRelationshipBootCamp()
         }
     }
 }
